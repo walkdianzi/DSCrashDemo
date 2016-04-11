@@ -1,5 +1,7 @@
 # DSCrashDemo
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/walkdianzi/DSCrashDemo/blob/master/License)&nbsp;
+
 In order to Record all iOS crash 
 
 # 介绍
