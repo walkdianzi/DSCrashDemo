@@ -1,45 +1,39 @@
 //
-//  MRCOneViewController.m
+//  SEGVViewController.m
 //  DSCrashDemo
 //
-//  Created by dasheng on 16/4/11.
+//  Created by dasheng on 16/4/14.
 //  Copyright © 2016年 dasheng. All rights reserved.
 //
 
-#import "MRCOneViewController.h"
-#import "MyMrcView.h"
+#import "SEGVViewController.h"
 
-@interface MRCOneViewController ()
-
+@interface SEGVViewController ()
 
 @end
 
-@implementation MRCOneViewController
+@implementation SEGVViewController
 
 - (void)viewDidLoad {
-
     [super viewDidLoad];
     
     UIScrollView  *contentScroller = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     contentScroller.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height*1.5);
     [self.view addSubview:contentScroller];
-
-    UIButton *crashSignalEGVButton = [[UIButton alloc] initWithFrame:CGRectMake(60, 200, 200, 100)];
+    
+    UIButton *crashSignalEGVButton = [[UIButton alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
     crashSignalEGVButton.backgroundColor = [UIColor redColor];
-    [crashSignalEGVButton setTitle:@"提高了野指针的崩溃率" forState:UIControlStateNormal];
+    [crashSignalEGVButton setTitle:@"Signal(EGV)" forState:UIControlStateNormal];
     [crashSignalEGVButton addTarget:self action:@selector(crashSignalEGVClick) forControlEvents:UIControlEventTouchUpInside];
     [contentScroller addSubview:crashSignalEGVButton];
 }
 
 - (void)crashSignalEGVClick{
     
-    //EXC_BAD_ACCESS(code=1,address=0x155555560)：表示0x155555560此内存并不合法，内部实现为已经被释放，为垃圾内存。
-    MyMrcView *myview = [[MyMrcView alloc]init]; //导致SIGSEGV的错误，一般会导致进程流产
-}
-
-- (void)viewWillDisappear:(BOOL)animated{
-    
-    
+    //需要不连xcode进行测试，不然在连接xcode的debug模式下，debug是先截获signal的，不会弹出alert
+    //EXC_BAD_ACCESS(code=1,address=0x1111)：表示0x00001111此内存并不合法，SIGSEGV类型崩溃
+    int *pi = (int*)0x00001111;
+    *pi = 17;
 }
 
 - (void)didReceiveMemoryWarning {

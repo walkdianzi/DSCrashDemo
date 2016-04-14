@@ -24,26 +24,32 @@
     _items = @{
                
                @"EXC_BAD_ACCESS":@[
-                                    @"",
+                                    @"SEGV",
                                 
                                 ],
                @"野指针":@[
                        
                             @"MRCOne"
                        ],
+               
+               @"内存泄露":@[
+                            @"LeakOne"
+                       ]
              };
     
     _itemsName = @{
                    
                    @"EXC_BAD_ACCESS":@[
-                                @"重复释放已经释放的对象",
+                                    @"无效内存中止信号（SIGSEGV）",
                                 
                                 ],
                    @"野指针":@[
-                                @"MRC"
-                           
+                                @"MRC提高野指针崩溃率"
                            ],
                    
+                   @"内存泄露":@[
+                                @"performSelector:afterDelay"
+                           ],
                    };
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DSSignalHandler.h"
+#import "DSSafeFree.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    //启动异常处理
+    InstallSignalHandler();//信号量截断
+    InstallUncaughtExceptionHandler();//系统异常捕获
+
+#if DEBUG
+    init_safe_free();
+#endif
+    
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

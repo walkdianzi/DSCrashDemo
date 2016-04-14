@@ -18,6 +18,13 @@
 		138C92321CBB9D90009FC9A2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C922F1CBB9D90009FC9A2 /* BaseViewController.m */; };
 		138C92331CBB9D90009FC9A2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92311CBB9D90009FC9A2 /* RootViewController.m */; };
 		138C92361CBBA4E1009FC9A2 /* MRCOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92351CBBA4E1009FC9A2 /* MRCOneViewController.m */; };
+		138C92971CBE217B009FC9A2 /* LeakOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92961CBE217B009FC9A2 /* LeakOneViewController.m */; };
+		138C92AE1CBF2D5C009FC9A2 /* SEGVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92AD1CBF2D5C009FC9A2 /* SEGVViewController.m */; };
+		138C92B31CBF2EDA009FC9A2 /* DSSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92B11CBF2EDA009FC9A2 /* DSSignalHandler.m */; };
+		138C92BA1CBF3240009FC9A2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 138C92B41CBF3240009FC9A2 /* fishhook.c */; };
+		138C92BB1CBF3240009FC9A2 /* MyMrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92B71CBF3240009FC9A2 /* MyMrcView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		138C92BC1CBF3240009FC9A2 /* TYLQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 138C92B81CBF3240009FC9A2 /* TYLQueue.c */; };
+		138C92BF1CBF32E7009FC9A2 /* DSSafeFree.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92BE1CBF32E7009FC9A2 /* DSSafeFree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,20 @@
 		138C92311CBB9D90009FC9A2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		138C92341CBBA4E1009FC9A2 /* MRCOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCOneViewController.h; sourceTree = "<group>"; };
 		138C92351CBBA4E1009FC9A2 /* MRCOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCOneViewController.m; sourceTree = "<group>"; };
+		138C92951CBE217B009FC9A2 /* LeakOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeakOneViewController.h; sourceTree = "<group>"; };
+		138C92961CBE217B009FC9A2 /* LeakOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakOneViewController.m; sourceTree = "<group>"; };
+		138C92AC1CBF2D5C009FC9A2 /* SEGVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGVViewController.h; sourceTree = "<group>"; };
+		138C92AD1CBF2D5C009FC9A2 /* SEGVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGVViewController.m; sourceTree = "<group>"; };
+		138C92B01CBF2EDA009FC9A2 /* DSSignalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSignalHandler.h; sourceTree = "<group>"; };
+		138C92B11CBF2EDA009FC9A2 /* DSSignalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSignalHandler.m; sourceTree = "<group>"; };
+		138C92B41CBF3240009FC9A2 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		138C92B51CBF3240009FC9A2 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		138C92B61CBF3240009FC9A2 /* MyMrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMrcView.h; sourceTree = "<group>"; };
+		138C92B71CBF3240009FC9A2 /* MyMrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMrcView.m; sourceTree = "<group>"; };
+		138C92B81CBF3240009FC9A2 /* TYLQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TYLQueue.c; sourceTree = "<group>"; };
+		138C92B91CBF3240009FC9A2 /* TYLQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLQueue.h; sourceTree = "<group>"; };
+		138C92BD1CBF32E7009FC9A2 /* DSSafeFree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSafeFree.h; sourceTree = "<group>"; };
+		138C92BE1CBF32E7009FC9A2 /* DSSafeFree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSafeFree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +131,7 @@
 		138C91F91CBB8C41009FC9A2 /* DSCrashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				138C92AF1CBF2EDA009FC9A2 /* Classes */,
 				138C922D1CBB9D90009FC9A2 /* Controller */,
 				138C91FD1CBB8C41009FC9A2 /* AppDelegate.h */,
 				138C91FE1CBB8C41009FC9A2 /* AppDelegate.m */,
@@ -159,8 +181,37 @@
 				138C92311CBB9D90009FC9A2 /* RootViewController.m */,
 				138C92341CBBA4E1009FC9A2 /* MRCOneViewController.h */,
 				138C92351CBBA4E1009FC9A2 /* MRCOneViewController.m */,
+				138C92951CBE217B009FC9A2 /* LeakOneViewController.h */,
+				138C92961CBE217B009FC9A2 /* LeakOneViewController.m */,
+				138C92AC1CBF2D5C009FC9A2 /* SEGVViewController.h */,
+				138C92AD1CBF2D5C009FC9A2 /* SEGVViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		138C92AF1CBF2EDA009FC9A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				138C92B01CBF2EDA009FC9A2 /* DSSignalHandler.h */,
+				138C92B11CBF2EDA009FC9A2 /* DSSignalHandler.m */,
+				138C92B21CBF2EDA009FC9A2 /* WildPointer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		138C92B21CBF2EDA009FC9A2 /* WildPointer */ = {
+			isa = PBXGroup;
+			children = (
+				138C92B41CBF3240009FC9A2 /* fishhook.c */,
+				138C92B51CBF3240009FC9A2 /* fishhook.h */,
+				138C92B61CBF3240009FC9A2 /* MyMrcView.h */,
+				138C92B71CBF3240009FC9A2 /* MyMrcView.m */,
+				138C92B81CBF3240009FC9A2 /* TYLQueue.c */,
+				138C92B91CBF3240009FC9A2 /* TYLQueue.h */,
+				138C92BD1CBF32E7009FC9A2 /* DSSafeFree.h */,
+				138C92BE1CBF32E7009FC9A2 /* DSSafeFree.m */,
+			);
+			path = WildPointer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,10 +346,17 @@
 			files = (
 				138C92021CBB8C41009FC9A2 /* ViewController.m in Sources */,
 				138C92321CBB9D90009FC9A2 /* BaseViewController.m in Sources */,
+				138C92BB1CBF3240009FC9A2 /* MyMrcView.m in Sources */,
 				138C91FF1CBB8C41009FC9A2 /* AppDelegate.m in Sources */,
+				138C92AE1CBF2D5C009FC9A2 /* SEGVViewController.m in Sources */,
 				138C91FC1CBB8C41009FC9A2 /* main.m in Sources */,
+				138C92971CBE217B009FC9A2 /* LeakOneViewController.m in Sources */,
+				138C92BA1CBF3240009FC9A2 /* fishhook.c in Sources */,
 				138C92361CBBA4E1009FC9A2 /* MRCOneViewController.m in Sources */,
+				138C92BC1CBF3240009FC9A2 /* TYLQueue.c in Sources */,
+				138C92BF1CBF32E7009FC9A2 /* DSSafeFree.m in Sources */,
 				138C92331CBB9D90009FC9A2 /* RootViewController.m in Sources */,
+				138C92B31CBF2EDA009FC9A2 /* DSSignalHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +584,7 @@
 				138C92261CBB8C41009FC9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138C92271CBB8C41009FC9A2 /* Build configuration list for PBXNativeTarget "DSCrashDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +593,7 @@
 				138C92291CBB8C41009FC9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138C922A1CBB8C41009FC9A2 /* Build configuration list for PBXNativeTarget "DSCrashDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +602,7 @@
 				138C922C1CBB8C41009FC9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
