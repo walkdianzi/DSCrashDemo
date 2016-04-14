@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13500C051CBF4BC3003D9F75 /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13500C041CBF4BC3003D9F75 /* BusViewController.m */; };
 		138C91FC1CBB8C41009FC9A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C91FB1CBB8C41009FC9A2 /* main.m */; };
 		138C91FF1CBB8C41009FC9A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C91FE1CBB8C41009FC9A2 /* AppDelegate.m */; };
 		138C92021CBB8C41009FC9A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C92011CBB8C41009FC9A2 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13500C031CBF4BC3003D9F75 /* BusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusViewController.h; sourceTree = "<group>"; };
+		13500C041CBF4BC3003D9F75 /* BusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusViewController.m; sourceTree = "<group>"; };
 		138C91F71CBB8C41009FC9A2 /* DSCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138C91FB1CBB8C41009FC9A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		138C91FD1CBB8C41009FC9A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				138C92961CBE217B009FC9A2 /* LeakOneViewController.m */,
 				138C92AC1CBF2D5C009FC9A2 /* SEGVViewController.h */,
 				138C92AD1CBF2D5C009FC9A2 /* SEGVViewController.m */,
+				13500C031CBF4BC3003D9F75 /* BusViewController.h */,
+				13500C041CBF4BC3003D9F75 /* BusViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				138C92BF1CBF32E7009FC9A2 /* DSSafeFree.m in Sources */,
 				138C92331CBB9D90009FC9A2 /* RootViewController.m in Sources */,
 				138C92B31CBF2EDA009FC9A2 /* DSSignalHandler.m in Sources */,
+				13500C051CBF4BC3003D9F75 /* BusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

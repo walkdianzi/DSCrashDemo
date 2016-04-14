@@ -30,6 +30,9 @@
 
 - (void)crashSignalEGVClick{
     
+    char *s = "hello world";
+    *s = 'H';
+    
     //需要不连xcode进行测试，不然在连接xcode的debug模式下，debug是先截获signal的，不会弹出alert
     //EXC_BAD_ACCESS(code=1,address=0x1111)：表示0x00001111此内存并不合法，SIGSEGV类型崩溃
     int *pi = (int*)0x00001111;
