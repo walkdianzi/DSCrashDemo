@@ -25,7 +25,8 @@
                
                @"EXC_BAD_ACCESS":@[
                                     @"SEGV",
-                                    @"Bus"
+                                    @"Bus",
+                                    @"ABRT"
                                 ],
                @"野指针":@[
                        
@@ -42,6 +43,7 @@
                    @"EXC_BAD_ACCESS":@[
                                     @"无效内存中止信号（SIGSEGV）",
                                     @"内存地址未对齐（SIGBUS）",
+                                    @"程序中止命令中止信号（SIGABRT）",
                                 ],
                    
                    @"野指针":@[

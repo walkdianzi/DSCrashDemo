@@ -21,7 +21,7 @@
     contentScroller.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height*1.5);
     [self.view addSubview:contentScroller];
     
-    UIButton *crashSignalEGVButton = [[UIButton alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
+    UIButton *crashSignalEGVButton = [[UIButton alloc] initWithFrame:CGRectMake(60, 200, 200, 100)];
     crashSignalEGVButton.backgroundColor = [UIColor redColor];
     [crashSignalEGVButton setTitle:@"Signal(EGV)" forState:UIControlStateNormal];
     [crashSignalEGVButton addTarget:self action:@selector(crashSignalEGVClick) forControlEvents:UIControlEventTouchUpInside];
