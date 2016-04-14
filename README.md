@@ -9,7 +9,7 @@ In order to Record all iOS crash
 写入了一些导致崩溃的代码。
 
 1. 提高了野指针的崩溃率。可以帮你很快找到一些隐藏的不易崩溃的错误代码。
-2. 加入信号量的崩溃。SIGSEGV
+2. 加入信号量的崩溃。SIGSEGV、SIGBUS、SIGABRT
 3. 内存泄露模拟。
 
 
