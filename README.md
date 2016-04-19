@@ -12,9 +12,6 @@ In order to Record all iOS crash
 2. 加入信号量的崩溃。SIGSEGV、SIGBUS、SIGABRT
 3. 内存泄露模拟。
 
-> wmnd
->
-> wm
 
 #最后
 - 如果我的项目对你有帮助欢迎 Star  
