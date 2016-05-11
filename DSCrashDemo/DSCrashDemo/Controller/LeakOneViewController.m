@@ -29,6 +29,12 @@
     [self performSelector:@selector(leakSelect:) withObject:self.countView afterDelay:5 inModes:@[UITrackingRunLoopMode]];
 }
 
+- (void)viewDidDisappear:(BOOL)animated{
+    
+    //这句取消了所有对应的performSelector方法
+    //[NSObject cancelPreviousPerformRequestsWithTarget:self];
+}
+
 - (void)leakSelect:(id)sender{
     
     NSLog(@"方法执行了");

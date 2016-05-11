@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13090C9B1CC4D7E200CE47A6 /* DeadLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13090C9A1CC4D7E200CE47A6 /* DeadLockViewController.m */; };
 		13500C051CBF4BC3003D9F75 /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13500C041CBF4BC3003D9F75 /* BusViewController.m */; };
 		13500C081CBF53B2003D9F75 /* ABRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13500C071CBF53B2003D9F75 /* ABRTViewController.m */; };
 		138C91FC1CBB8C41009FC9A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138C91FB1CBB8C41009FC9A2 /* main.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13090C991CC4D7E200CE47A6 /* DeadLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadLockViewController.h; sourceTree = "<group>"; };
+		13090C9A1CC4D7E200CE47A6 /* DeadLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadLockViewController.m; sourceTree = "<group>"; };
 		13500C031CBF4BC3003D9F75 /* BusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusViewController.h; sourceTree = "<group>"; };
 		13500C041CBF4BC3003D9F75 /* BusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusViewController.m; sourceTree = "<group>"; };
 		13500C061CBF53B2003D9F75 /* ABRTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRTViewController.h; sourceTree = "<group>"; };
@@ -195,6 +198,8 @@
 				13500C041CBF4BC3003D9F75 /* BusViewController.m */,
 				13500C061CBF53B2003D9F75 /* ABRTViewController.h */,
 				13500C071CBF53B2003D9F75 /* ABRTViewController.m */,
+				13090C991CC4D7E200CE47A6 /* DeadLockViewController.h */,
+				13090C9A1CC4D7E200CE47A6 /* DeadLockViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 				138C91FC1CBB8C41009FC9A2 /* main.m in Sources */,
 				138C92971CBE217B009FC9A2 /* LeakOneViewController.m in Sources */,
 				138C92BA1CBF3240009FC9A2 /* fishhook.c in Sources */,
+				13090C9B1CC4D7E200CE47A6 /* DeadLockViewController.m in Sources */,
 				138C92361CBBA4E1009FC9A2 /* MRCOneViewController.m in Sources */,
 				138C92BC1CBF3240009FC9A2 /* TYLQueue.c in Sources */,
 				138C92BF1CBF32E7009FC9A2 /* DSSafeFree.m in Sources */,

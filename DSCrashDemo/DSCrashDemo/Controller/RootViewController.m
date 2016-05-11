@@ -35,6 +35,10 @@
                
                @"内存泄露":@[
                             @"LeakOne"
+                       ],
+               
+               @"主线程卡死":@[
+                            @"DeadLock"
                        ]
              };
     
@@ -53,6 +57,9 @@
                    @"内存泄露":@[
                                 @"performSelector:afterDelay"
                            ],
+                   @"主线程卡死":@[
+                                @"死锁"
+                           ]
                    };
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
